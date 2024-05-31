@@ -5,9 +5,7 @@ function Navbar() {
     return (
         <div className="bg-white">
             <nav className="p-4 shadow-md flex flex-col md:flex-row items-center justify-center">
-                <Link className="text-sm" to="/cadastro">
                     <p className="text-center text-5xl p-4 text-blue-950 font-bold font-roboto">🪐 SpaceX</p>
-                </Link>
                 <div className="flex flex-row md:flex-row md:items-center justify-center"> {/* Adicionado justify-center aqui */}
                     <a className="text-blue-950 font-bold px-4" href="/">Home</a>
                     <a className="text-blue-950 font-bold px-4" href="#">Serviços</a>
